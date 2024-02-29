@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout project from SCM') { 
             steps {
-                git branch: 'main', url: 'https://github.com/macaktom/maven-project-jenkins' 
+                git branch: 'master', url: 'https://github.com/macaktom/maven-project-jenkins' 
             }
         }
         stage('Test webhook') {
