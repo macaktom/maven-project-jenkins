@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test webhook') {
             steps {
-                sh 'ls'
+                sh 'echo "Webhook works"'
             }
         }
     }
